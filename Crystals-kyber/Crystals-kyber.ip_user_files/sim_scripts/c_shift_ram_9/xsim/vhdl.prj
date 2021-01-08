@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/sim/c_shift_ram_9.vhd" \
+
+nosort

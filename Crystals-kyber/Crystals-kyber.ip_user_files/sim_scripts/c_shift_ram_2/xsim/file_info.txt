@@ -1,0 +1,6 @@
+xbip_utils_v3_0_vh_rfs.vhd,vhdl,xbip_utils_v3_0_8,../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd,
+c_reg_fd_v12_0_vh_rfs.vhd,vhdl,c_reg_fd_v12_0_4,../../../ipstatic/hdl/c_reg_fd_v12_0_vh_rfs.vhd,
+c_mux_bit_v12_0_vh_rfs.vhd,vhdl,c_mux_bit_v12_0_4,../../../ipstatic/hdl/c_mux_bit_v12_0_vh_rfs.vhd,
+c_shift_ram_v12_0_vh_rfs.vhd,vhdl,c_shift_ram_v12_0_11,../../../ipstatic/hdl/c_shift_ram_v12_0_vh_rfs.vhd,
+c_shift_ram_2.vhd,vhdl,xil_defaultlib,../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_2/sim/c_shift_ram_2.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

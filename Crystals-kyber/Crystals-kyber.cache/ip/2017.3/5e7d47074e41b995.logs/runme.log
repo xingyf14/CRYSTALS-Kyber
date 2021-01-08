@@ -1,0 +1,58 @@
+
+*** Running vivado
+    with args -log dist_mem_gen_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_5.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source dist_mem_gen_5.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 398.539 ; gain = 98.020
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_5' [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/synth/dist_mem_gen_5.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_5' (4#1) [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/synth/dist_mem_gen_5.vhd:67]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 466.488 ; gain = 165.969
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 466.488 ; gain = 165.969
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 769.512 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 769.512 ; gain = 468.992
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+-------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                            | Depth x Width | Implemented As | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+|rom                  | rom[127]                                              | 128x12        | LUT            | 
+|dist_mem_gen_v8_0_12 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[127] | 128x12        | LUT            | 
++---------------------+-------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 769.512 ; gain = 468.992
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT6  |    24|
+|2     |MUXF7 |    12|
+|3     |FDRE  |    12|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 785.336 ; gain = 484.816
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 785.336 ; gain = 496.289

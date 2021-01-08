@@ -1,0 +1,7 @@
+Running: xsim.dir/Kyber_server_tb_behav/xsimk.exe -simmode gui -wdb Kyber_server_tb_behav.wdb -simrunnum 0 -socket 52266
+Design successfully loaded
+Design Loading Memory Usage: 11136 KB (Peak: 11136 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 13636 KB (Peak: 13636 KB)
+Simulation CPU Usage: 171 ms

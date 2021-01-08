@@ -1,0 +1,26 @@
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module Kyber_tb.S.ntt.RAM0.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM1.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM2.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM3.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM4.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module Kyber_tb.C.ntt.RAM0.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.C.ntt.RAM1.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.C.ntt.RAM2.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.C.ntt.RAM3.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.C.ntt.RAM4.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module Kyber_tb.S.ntt.RAM0.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM1.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM2.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM3.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module Kyber_tb.S.ntt.RAM4.inst.native_mem_module.blk_mem_gen_v8_4_0_inst is using a behavioral model for simulation which will not precisely model memory collision

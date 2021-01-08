@@ -1,0 +1,9 @@
+verilog dist_mem_gen_v8_0_12  \
+"../../../ipstatic/simulation/dist_mem_gen_v8_0.v" \
+
+verilog xil_defaultlib  \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/sim/dist_mem_gen_6.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

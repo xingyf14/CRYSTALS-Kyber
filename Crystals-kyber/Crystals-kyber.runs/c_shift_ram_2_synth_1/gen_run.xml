@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="c_shift_ram_2_synth_1" LaunchPart="xc7a12tcpg238-1" LaunchTime="1609937075">
+  <File Type="PA-TCL" Name="c_shift_ram_2.tcl"/>
+  <File Type="REPORTS-TCL" Name="c_shift_ram_2_reports.tcl"/>
+  <File Type="RDS-RDS" Name="c_shift_ram_2.vds"/>
+  <File Type="RDS-UTIL" Name="c_shift_ram_2_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="c_shift_ram_2_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="c_shift_ram_2.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/c_shift_ram_2">
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_2/c_shift_ram_2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="c_shift_ram_2"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/c_shift_ram_2">
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_2/c_shift_ram_2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="c_shift_ram_2"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,526 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jan  8 17:39:43 2021
+# Process ID: 19224
+# Current directory: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1
+# Command line: vivado.exe -log Kyber_Server.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Kyber_Server.tcl -notrace
+# Log file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server.vdi
+# Journal file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Kyber_Server.tcl -notrace
+Command: link_design -top Kyber_Server -part xc7a12tcpg238-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_4/fifo_generator_4.dcp' for cell 'DFIFO0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_5/fifo_generator_5.dcp' for cell 'DFIFO1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.dcp' for cell 'IFIFO'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.dcp' for cell 'OFIFO'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.dcp' for cell 'hash/fifo0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.dcp' for cell 'hash/fifo1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/fifo_generator_7.dcp' for cell 'hash/fifo2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/fifo_generator_8.dcp' for cell 'hash/fifo8'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'ntt/RAM0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.dcp' for cell 'ntt/RAM2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'ntt/RAM4'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/dist_mem_gen_5.dcp' for cell 'ntt/ROM0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6.dcp' for cell 'ntt/ROM1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_7/dist_mem_gen_7.dcp' for cell 'ntt/ROM2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_8/c_shift_ram_8.dcp' for cell 'ntt/S10'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_11/c_shift_ram_11.dcp' for cell 'ntt/S11'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_2/c_shift_ram_2.dcp' for cell 'ntt/S3'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_3/c_shift_ram_3.dcp' for cell 'ntt/S4'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_4/c_shift_ram_4.dcp' for cell 'ntt/S5'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_5/c_shift_ram_5.dcp' for cell 'ntt/S7'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_6/c_shift_ram_6.dcp' for cell 'ntt/S9'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/mult_gen_0/mult_gen_0.dcp' for cell 'ntt/BU/M0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.dcp' for cell 'ntt/BU/S0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/c_shift_ram_9.dcp' for cell 'ntt/BU/S12'
+INFO: [Project 1-454] Reading design checkpoint 'e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.dcp' for cell 'ntt/BU/S2'
+INFO: [Netlist 29-17] Analyzing 758 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.3
+INFO: [Device 21-403] Loading part xc7a12tcpg238-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'fifo_generator_6'. The XDC file e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xdc will not be read for any cell of this module.
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/fifo_generator_8.xdc] for cell 'hash/fifo8/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/fifo_generator_8.xdc] for cell 'hash/fifo8/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/fifo_generator_7.xdc] for cell 'hash/fifo2/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/fifo_generator_7.xdc] for cell 'hash/fifo2/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.xdc] for cell 'IFIFO/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.xdc] for cell 'IFIFO/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xdc] for cell 'OFIFO/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xdc] for cell 'OFIFO/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_4/fifo_generator_4.xdc] for cell 'DFIFO0/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_4/fifo_generator_4.xdc] for cell 'DFIFO0/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_5/fifo_generator_5.xdc] for cell 'DFIFO1/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_5/fifo_generator_5.xdc] for cell 'DFIFO1/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'hash/fifo0/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc] for cell 'hash/fifo0/U0'
+Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'hash/fifo1/U0'
+Finished Parsing XDC File [e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xdc] for cell 'hash/fifo1/U0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 287 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 267 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 14 instances
+
+32 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 671.184 ; gain = 370.168
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.700 . Memory (MB): peak = 678.066 ; gain = 6.848
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 175d387e1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.885 . Memory (MB): peak = 1188.707 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 10 cells and removed 14 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1d55bd4f3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1188.707 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 9 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 16e2478e4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1188.707 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 16e2478e4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1188.707 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 16e2478e4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1188.707 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1188.707 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 16e2478e4
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1188.707 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.437 | TNS=-3.045 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 5 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 1 Total Ports: 10
+Ending PowerOpt Patch Enables Task | Checksum: bf948038
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Ending Power Optimization Task | Checksum: bf948038
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 1434.754 ; gain = 246.047
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 1434.754 ; gain = 763.570
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Kyber_Server_drc_opted.rpt -pb _to_32bits_v2_drc_opted.pb -rpx _to_32bits_v2_drc_opted.rpx
+Command: report_drc -file Kyber_Server_drc_opted.rpt -pb _to_32bits_v2_drc_opted.pb -rpx _to_32bits_v2_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 6071cc76
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e8044899
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1e2c27e34
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1e2c27e34
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1e2c27e34
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 18d919bf5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 18d919bf5
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 24dddd4be
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2817fac36
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1a5f34173
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1a5f34173
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 2100e22f6
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:18 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 1cba5a8f6
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:22 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 181ee9445
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:22 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 181ee9445
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:22 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 1c996ff90
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1c996ff90
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:24 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1b10147e0
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-33] Processed net hash/hash/FSM/Q_buf_reg[0][0], BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 1 candidate nets, 0 success, 1 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1b10147e0
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:26 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.420. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1ab84aab1
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1ab84aab1
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1ab84aab1
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1ab84aab1
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1b5475ba4
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1b5475ba4
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Ending Placer Task | Checksum: 1894426dd
+
+Time (s): cpu = 00:01:09 ; elapsed = 00:00:57 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+75 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:11 ; elapsed = 00:00:58 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file Kyber_Server_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file Kyber_Server_utilization_placed.rpt -pb Kyber_Server_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -file Kyber_Server_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a12t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a12t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: c46ae92e ConstDB: 0 ShapeSum: c4d93daf RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 1be18344e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Post Restoration Checksum: NetGraph: eea9d012 NumContArr: cf6e643c Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1be18344e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1be18344e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1be18344e
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1434.754 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 139f84c8f
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.358  | TNS=0.000  | WHS=-0.222 | THS=-233.287|
+
+Phase 2 Router Initialization | Checksum: 1552d5f0b
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1f018a625
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2372
+ Number of Nodes with overlaps = 377
+ Number of Nodes with overlaps = 73
+ Number of Nodes with overlaps = 21
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.170 | TNS=-0.170 | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 130440694
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:29 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 157
+ Number of Nodes with overlaps = 76
+ Number of Nodes with overlaps = 35
+ Number of Nodes with overlaps = 27
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.090  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1b8216d4f
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1b8216d4f
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 1b8216d4f
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1b8216d4f
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 1b8216d4f
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2736b23e3
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.169  | TNS=0.000  | WHS=0.042  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 27c7d6670
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 27c7d6670
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 10.5612 %
+  Global Horizontal Routing Utilization  = 14.2314 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1c4ba64de
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1c4ba64de
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:34 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1c19e8709
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.169  | TNS=0.000  | WHS=0.042  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1c19e8709
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:35 . Memory (MB): peak = 1434.754 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+92 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:37 . Memory (MB): peak = 1434.754 ; gain = 0.000
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1434.754 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Kyber_Server_drc_routed.rpt -pb Kyber_Server_drc_routed.pb -rpx Kyber_Server_drc_routed.rpx
+Command: report_drc -file Kyber_Server_drc_routed.rpt -pb Kyber_Server_drc_routed.pb -rpx Kyber_Server_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file Kyber_Server_methodology_drc_routed.rpt -pb Kyber_Server_methodology_drc_routed.pb -rpx Kyber_Server_methodology_drc_routed.rpx
+Command: report_methodology -file Kyber_Server_methodology_drc_routed.rpt -pb Kyber_Server_methodology_drc_routed.pb -rpx Kyber_Server_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file Kyber_Server_power_routed.rpt -pb Kyber_Server_power_summary_routed.pb -rpx Kyber_Server_power_routed.rpx
+Command: report_power -file Kyber_Server_power_routed.rpt -pb Kyber_Server_power_summary_routed.pb -rpx Kyber_Server_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+103 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file Kyber_Server_route_status.rpt -pb Kyber_Server_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -file Kyber_Server_timing_summary_routed.rpt -warn_on_violation  -rpx Kyber_Server_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Kyber_Server_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Kyber_Server_clock_utilization_routed.rpt
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  8 17:42:21 2021...

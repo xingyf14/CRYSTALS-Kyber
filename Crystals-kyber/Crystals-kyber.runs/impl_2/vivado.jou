@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jan  8 17:33:01 2021
+# Process ID: 5300
+# Current directory: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_2
+# Command line: vivado.exe -log Kyber_Client.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Kyber_Client.tcl -notrace
+# Log file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_2/Kyber_Client.vdi
+# Journal file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source Kyber_Client.tcl -notrace

@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/sim/fifo_generator_8.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/sim/fifo_generator_7.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_7/sim/dist_mem_gen_7.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_3/sim/fifo_generator_3.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_4/sim/fifo_generator_4.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_5/sim/fifo_generator_5.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/sim/dist_mem_gen_5.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/sim/dist_mem_gen_6.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_3/sim/dist_mem_gen_3.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_4/sim/dist_mem_gen_4.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_2/sim/dist_mem_gen_2.v" \
+"../../../../Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/sim/fifo_generator_6.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/butterfly_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/reduc.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/LUT.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/new/pattern.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/decode_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/encode_Server.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/decode_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/encode_Client.v" \
+"../../../../Crystals-kyber.srcs/sources_1/new/decode_keccak.v" \
+"../../../../Crystals-kyber.srcs/sources_1/new/mux4to2.v" \
+"../../../../Crystals-kyber.srcs/sim_1/imports/new/Kyber_tb.v" \
+"../../../../Crystals-kyber.srcs/sim_1/imports/new/reduc_tb.v" \
+"../../../../Crystals-kyber.srcs/sim_1/new/Kyber_server_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

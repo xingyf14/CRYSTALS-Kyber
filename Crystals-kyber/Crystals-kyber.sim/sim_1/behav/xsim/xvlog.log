@@ -1,0 +1,81 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/sim/fifo_generator_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/sim/fifo_generator_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_7/sim/dist_mem_gen_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_2/sim/fifo_generator_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_3/sim/fifo_generator_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_4/sim/fifo_generator_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_5/sim/fifo_generator_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/sim/dist_mem_gen_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/sim/dist_mem_gen_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_3/sim/dist_mem_gen_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_4/sim/dist_mem_gen_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_2/sim/dist_mem_gen_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_Server
+INFO: [VRFC 10-2458] undeclared symbol ena_sft, assumed default net type wire [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:624]
+INFO: [VRFC 10-2458] undeclared symbol NTT_finish, assumed default net type wire [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:631]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_Cli
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module butterfly_Ser
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NTT_core_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NTT_core_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reduc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hash_core_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hash_core_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LUT0
+INFO: [VRFC 10-311] analyzing module LUT1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Server.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode_Server
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Client.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode_Client
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_keccak
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/sim/fifo_generator_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/Kyber_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Kyber_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sim_1/imports/new/reduc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reduc_tb

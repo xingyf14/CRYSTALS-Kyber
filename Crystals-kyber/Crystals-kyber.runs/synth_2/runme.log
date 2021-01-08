@@ -1,0 +1,1209 @@
+
+*** Running vivado
+    with args -log Kyber_Client.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Kyber_Client.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Kyber_Client.tcl -notrace
+Command: synth_design -top Kyber_Client -part xc7a12tcpg238-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16036 
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module LUT1 [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/LUT.v:26]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 431.469 ; gain = 118.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Kyber_Client' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'NTT_core_Client' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:422]
+INFO: [Synth 8-638] synthesizing module 'butterfly_Cli' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (1#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'reduc' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v:2]
+INFO: [Synth 8-256] done synthesizing module 'reduc' (2#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v:2]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_0' (3#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_1' (4#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'butterfly_Cli' (5#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_5' (6#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_6' (7#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_7' (8#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (9#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_2' (10#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_1' (11#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'mux4to2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mux4to2' (12#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v:1]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_3' (13#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
+WARNING: [Synth 8-689] width (5) of port connection 'D' does not match port width (6) of module 'c_shift_ram_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:497]
+WARNING: [Synth 8-689] width (5) of port connection 'Q' does not match port width (6) of module 'c_shift_ram_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:497]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_4' (14#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'D' does not match port width (8) of module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:499]
+WARNING: [Synth 8-689] width (6) of port connection 'Q' does not match port width (8) of module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:499]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_5' (15#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_6' (16#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_8' (17#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_11' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_11' (18#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'NTT_core_Client' (19#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'hash_core_Client' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+INFO: [Synth 8-638] synthesizing module 'Keccak1600' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:41]
+INFO: [Synth 8-3491] module 'Round' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:19' bound to instance 'RoundFunction' of component 'Round' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Round' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:39]
+	Parameter SIZE bound to: 1600 - type: integer 
+INFO: [Synth 8-3491] module 'RegisterFDRE' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd:18' bound to instance 'Reg' of component 'RegisterFDRE' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'RegisterFDRE' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd:37]
+	Parameter SIZE bound to: 1600 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegisterFDRE' (20#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd:37]
+INFO: [Synth 8-3491] module 'theta' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/theta.vhd:19' bound to instance 'T' of component 'theta' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'theta' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/theta.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'theta' (21#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/theta.vhd:28]
+INFO: [Synth 8-3491] module 'rho' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/rho.vhd:19' bound to instance 'R' of component 'rho' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'rho' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/rho.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'rho' (22#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/rho.vhd:28]
+INFO: [Synth 8-3491] module 'pi' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/pi.vhd:19' bound to instance 'P' of component 'pi' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'pi' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/pi.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'pi' (23#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/pi.vhd:28]
+INFO: [Synth 8-3491] module 'chi' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/chi.vhd:19' bound to instance 'C' of component 'chi' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'chi' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/chi.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'chi' (24#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/chi.vhd:28]
+INFO: [Synth 8-3491] module 'iota' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/iota.vhd:19' bound to instance 'I' of component 'iota' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'iota' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/iota.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'iota' (25#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/iota.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'Round' (26#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd:39]
+INFO: [Synth 8-3491] module 'StateMachine' declared at 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/StateMachine.vhd:19' bound to instance 'FSM' of component 'StateMachine' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'StateMachine' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/StateMachine.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'StateMachine' (27#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/StateMachine.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Keccak1600' (28#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_0' (29#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_1' (30#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_7' (31#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_8' (32#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'decode_keccak' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v:3]
+INFO: [Synth 8-256] done synthesizing module 'decode_keccak' (33#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v:3]
+INFO: [Synth 8-256] done synthesizing module 'hash_core_Client' (34#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+INFO: [Synth 8-638] synthesizing module 'decode_Client' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Client.v:2]
+INFO: [Synth 8-256] done synthesizing module 'decode_Client' (35#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'encode_Client' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Client.v:2]
+INFO: [Synth 8-256] done synthesizing module 'encode_Client' (36#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Client.v:2]
+INFO: [Synth 8-638] synthesizing module 'pattern' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v:1]
+INFO: [Synth 8-256] done synthesizing module 'pattern' (37#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v:1]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_2' (38#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_3' (39#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_3_stub.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'din' does not match port width (34) of module 'fifo_generator_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:505]
+WARNING: [Synth 8-689] width (32) of port connection 'dout' does not match port width (34) of module 'fifo_generator_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:505]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_6_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_6' (40#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/realtime/fifo_generator_6_stub.v:6]
+INFO: [Synth 8-4471] merging register 'req_c_r1_reg' into 'OFIFO_req_r1_reg' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:449]
+WARNING: [Synth 8-6014] Unused sequential element req_c_r1_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:449]
+INFO: [Synth 8-256] done synthesizing module 'Kyber_Client' (41#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:2]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[31]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[30]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[29]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[28]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[27]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[26]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 483.992 ; gain = 171.305
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 483.992 ; gain = 171.305
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a12tcpg238-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp67/fifo_generator_6_in_context.xdc] for cell 'DFIFO'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp67/fifo_generator_6_in_context.xdc] for cell 'DFIFO'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp69/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp69/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp71/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp71/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp73/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp73/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp75/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp75/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp77/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp77/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp83/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp83/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp85/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp85/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp87/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp87/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp89/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp89/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp91/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp91/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp93/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp93/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp95/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp95/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp99/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp99/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp107/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp107/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp109/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp109/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/.Xil/Vivado-11644-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/dont_touch.xdc]
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 835.250 ; gain = 1.117
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'DFIFO' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'IFIFO' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'OFIFO' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'hash/fifo0' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'hash/fifo1' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'hash/fifo2' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'hash/fifo8' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/RAM0' at clock pin 'clka' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/RAM1' at clock pin 'clka' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/RAM2' at clock pin 'clka' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/RAM3' at clock pin 'clka' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/RAM4' at clock pin 'clka' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/ROM0' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/ROM1' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ntt/ROM2' at clock pin 'clk' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S10' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S11' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S4' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S5' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S6' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S7' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/S9' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'ntt/BU/M0' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'ntt/BU/M1' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S0' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S1' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S2' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S3' at clock pin 'CLK' is different from the actual clock period '6.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 836.813 ; gain = 524.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12tcpg238-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 836.813 ; gain = 524.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for DFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for IFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OFIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for hash/fifo0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for hash/fifo1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for hash/fifo2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for hash/fifo8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/M0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/M1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/S0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/S1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/S2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/BU/S3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/RAM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/RAM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/RAM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/RAM3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/RAM4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/ROM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/ROM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/ROM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ntt/S9. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 836.813 ; gain = 524.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "q_sum0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_sum1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fifo0_req" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_D" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ctr_NTT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "req_noise" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "req_noise_done0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ena_sft" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_u" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ready_c" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "valid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CONST" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NEXT_STATE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fifo_data_dropped" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fifo_GENA_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element pad_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+WARNING: [Synth 8-6014] Unused sequential element squeeze_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+WARNING: [Synth 8-6014] Unused sequential element fifo_GENA_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "valid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sftreg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "patt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "eta3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "endp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "keccak_init" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "extend" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ififo_last0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "din_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "din_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_ctr_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dout_rnd_end" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rho" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hash_pk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hash_c" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pad_ctr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "pad_ctr" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "absorb_ctr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "nonce" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ififo_mode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ofifo_ena" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ofifo_ena" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "dout" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element nonce_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:319]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 836.813 ; gain = 524.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd:56]
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   6 Input     15 Bit       Adders := 2     
+	   5 Input     13 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 16    
+	   3 Input     13 Bit       Adders := 8     
+	   2 Input     12 Bit       Adders := 6     
+	   3 Input     11 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 3     
+	   2 Input      7 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 8     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 4     
+	   7 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 5     
++---XORs : 
+	   5 Input    320 Bit         XORs := 1     
+	   2 Input     64 Bit         XORs := 55    
+	   3 Input     64 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input     13 Bit         XORs := 3     
+	   2 Input      1 Bit         XORs := 4     
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	             1600 Bit    Registers := 1     
+	              256 Bit    Registers := 6     
+	               73 Bit    Registers := 3     
+	               52 Bit    Registers := 1     
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 12    
+	               22 Bit    Registers := 1     
+	               15 Bit    Registers := 4     
+	               13 Bit    Registers := 8     
+	               12 Bit    Registers := 21    
+	               11 Bit    Registers := 12    
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 7     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 38    
++---Muxes : 
+	   2 Input   1600 Bit        Muxes := 1     
+	   4 Input    256 Bit        Muxes := 1     
+	   2 Input    256 Bit        Muxes := 3     
+	   6 Input     73 Bit        Muxes := 1     
+	   3 Input     73 Bit        Muxes := 1     
+	   2 Input     73 Bit        Muxes := 3     
+	  25 Input     64 Bit        Muxes := 1     
+	   6 Input     51 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	  11 Input     32 Bit        Muxes := 1     
+	  15 Input     32 Bit        Muxes := 1     
+	   3 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   5 Input     24 Bit        Muxes := 3     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 7     
+	   3 Input     24 Bit        Muxes := 3     
+	   6 Input     24 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 2     
+	   6 Input     15 Bit        Muxes := 2     
+	   3 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 37    
+	   3 Input     12 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 2     
+	   7 Input     10 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 2     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 20    
+	   5 Input      6 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 20    
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 24    
+	  12 Input      4 Bit        Muxes := 1     
+	  18 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	  10 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 2     
+	  12 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 13    
+	  10 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 43    
+	   3 Input      1 Bit        Muxes := 14    
+	   6 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 12    
+	   8 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 10    
+	   7 Input      1 Bit        Muxes := 2     
+	  37 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register Q_buf_reg [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd:56]
+Hierarchical RTL Component report 
+Module Kyber_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	              256 Bit    Registers := 6     
+	               73 Bit    Registers := 3     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   4 Input    256 Bit        Muxes := 1     
+	   2 Input    256 Bit        Muxes := 3     
+	   2 Input     73 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 1     
+	  15 Input     32 Bit        Muxes := 1     
+	   3 Input     25 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 18    
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 13    
+	   2 Input      4 Bit        Muxes := 11    
+	  18 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 13    
+	  37 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module reduc 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     15 Bit       Adders := 1     
+	   5 Input     13 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 1     
+	   3 Input     11 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               15 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     15 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+Module butterfly_Cli 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 8     
+	   3 Input     13 Bit       Adders := 8     
++---XORs : 
+	   2 Input     13 Bit         XORs := 3     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               13 Bit    Registers := 4     
+	               12 Bit    Registers := 12    
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 25    
+	   3 Input     12 Bit        Muxes := 1     
+Module mux4to2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module NTT_core_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   7 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 9     
+	               22 Bit    Registers := 1     
+	               12 Bit    Registers := 6     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   5 Input     24 Bit        Muxes := 3     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 5     
+	   3 Input     24 Bit        Muxes := 2     
+	   6 Input     24 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 10    
+	   2 Input     10 Bit        Muxes := 2     
+	   7 Input     10 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 7     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 5     
+	   7 Input      1 Bit        Muxes := 2     
+Module RegisterFDRE 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	             1600 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   1600 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module theta 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input    320 Bit         XORs := 1     
+	   2 Input     64 Bit         XORs := 29    
+	   3 Input     64 Bit         XORs := 1     
+Module chi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 25    
+Module iota 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
+Module StateMachine 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	  25 Input     64 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 1     
+Module decode_keccak 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module hash_core_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     24 Bit        Muxes := 1     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 2     
+Module decode_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module encode_Client 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               52 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module pattern 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     73 Bit        Muxes := 1     
+	   3 Input     73 Bit        Muxes := 1     
+	   6 Input     51 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "q_sum0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_sum1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "q_diff1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5587] ROM size for "ctrl_butt" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FSM/CONST" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element pad_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+WARNING: [Synth 8-6014] Unused sequential element squeeze_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+WARNING: [Synth 8-6014] Unused sequential element fifo_GENA_ctr_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v:1]
+INFO: [Synth 8-5544] ROM "patt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "eta3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "endp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element nonce_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Client.v:319]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[31]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[30]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[29]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[28]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[27]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[26]
+WARNING: [Synth 8-3331] design NTT_core_Client has unconnected port din[25]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[0] )
+INFO: [Synth 8-3886] merging instance 'ntt/ctrl_butt_reg[0]' (FD) to 'ntt/ctrl_butt_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[3]' (FDR) to 'ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[4]' (FDR) to 'ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[5]' (FDR) to 'ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[6]' (FDR) to 'ntt/samp2_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ntt/\samp2_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[10]' (FDR) to 'ntt/samp2_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp3_q_reg[3]' (FDR) to 'ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp3_q_reg[4]' (FDR) to 'ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp3_q_reg[5]' (FDR) to 'ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp3_q_reg[6]' (FDR) to 'ntt/samp3_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ntt/\samp3_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'ntt/samp3_q_reg[10]' (FDR) to 'ntt/samp3_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp0_q_reg[3]' (FDR) to 'ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp0_q_reg[4]' (FDR) to 'ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp0_q_reg[5]' (FDR) to 'ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp0_q_reg[6]' (FDR) to 'ntt/samp0_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ntt/\samp0_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'ntt/samp0_q_reg[10]' (FDR) to 'ntt/samp0_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp1_q_reg[3]' (FDR) to 'ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp1_q_reg[4]' (FDR) to 'ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp1_q_reg[5]' (FDR) to 'ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ntt/samp1_q_reg[6]' (FDR) to 'ntt/samp1_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ntt/\samp1_q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'ntt/samp1_q_reg[10]' (FDR) to 'ntt/samp1_q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[0]' (FDE) to 'eta3_r_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[1] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[1]' (FDE) to 'eta3_r_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[2] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[2]' (FDE) to 'eta3_r_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[3] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[3]' (FDE) to 'eta3_r_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[4] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[4]' (FDE) to 'eta3_r_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[5] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[5]' (FDE) to 'eta3_r_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[6] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[6]' (FDE) to 'eta3_r_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[7] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[7]' (FDE) to 'eta3_r_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[8] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[8]' (FDE) to 'eta3_r_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[9] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[9]' (FDE) to 'eta3_r_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[10] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[10]' (FDE) to 'eta3_r_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[11] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[11]' (FDE) to 'eta3_r_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[12] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[12]' (FDE) to 'eta3_r_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[13] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[13]' (FDE) to 'eta3_r_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[14] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[14]' (FDE) to 'eta3_r_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[15] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[15]' (FDE) to 'eta3_r_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[16] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[16]' (FDE) to 'eta3_r_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[17] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[17]' (FDE) to 'eta3_r_reg[18]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[18] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[18]' (FDE) to 'eta3_r_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[19] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[19]' (FDE) to 'eta3_r_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[20] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[20]' (FDE) to 'eta3_r_reg[21]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[21] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[21]' (FDE) to 'eta3_r_reg[22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[22] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[22]' (FDE) to 'eta3_r_reg[23]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[23] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[23]' (FDE) to 'eta3_r_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[24] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[24]' (FDE) to 'eta3_r_reg[25]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[25] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[25]' (FDE) to 'eta3_r_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[26] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[26]' (FDE) to 'eta3_r_reg[27]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[27] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[27]' (FDE) to 'eta3_r_reg[28]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[28] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[28]' (FDE) to 'eta3_r_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[29] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[29]' (FDE) to 'eta3_r_reg[30]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[30] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[30]' (FDE) to 'eta3_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[31] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[31]' (FDE) to 'eta3_r_reg[32]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[32] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[32]' (FDE) to 'eta3_r_reg[33]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[33] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[33]' (FDE) to 'eta3_r_reg[34]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[34] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[34]' (FDE) to 'eta3_r_reg[35]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[35] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[35]' (FDE) to 'eta3_r_reg[36]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[36] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[36]' (FDE) to 'eta3_r_reg[37]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[37] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[37]' (FDE) to 'eta3_r_reg[38]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[38] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[38]' (FDE) to 'eta3_r_reg[39]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[39] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[39]' (FDE) to 'eta3_r_reg[40]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[40] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[40]' (FDE) to 'eta3_r_reg[41]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[41] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[41]' (FDE) to 'eta3_r_reg[42]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[42] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[42]' (FDE) to 'eta3_r_reg[43]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[43] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[43]' (FDE) to 'eta3_r_reg[44]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[44] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[44]' (FDE) to 'eta3_r_reg[45]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[45] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[45]' (FDE) to 'eta3_r_reg[46]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[46] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[46]' (FDE) to 'eta3_r_reg[47]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[47] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[47]' (FDE) to 'eta3_r_reg[48]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[48] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[48]' (FDE) to 'eta3_r_reg[49]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[49] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[49]' (FDE) to 'eta3_r_reg[50]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[50] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[50]' (FDE) to 'eta3_r_reg[51]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[51] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[51]' (FDE) to 'eta3_r_reg[52]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[52] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[52]' (FDE) to 'eta3_r_reg[53]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[53] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[53]' (FDE) to 'eta3_r_reg[54]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[54] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[54]' (FDE) to 'eta3_r_reg[55]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[55] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[55]' (FDE) to 'eta3_r_reg[56]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[56] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[56]' (FDE) to 'eta3_r_reg[57]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[57] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[57]' (FDE) to 'eta3_r_reg[58]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[58] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[58]' (FDE) to 'eta3_r_reg[59]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[59] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[59]' (FDE) to 'eta3_r_reg[60]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[60] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[60]' (FDE) to 'eta3_r_reg[61]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[61] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[61]' (FDE) to 'eta3_r_reg[62]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[62] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[62]' (FDE) to 'eta3_r_reg[63]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[63] )
+INFO: [Synth 8-3886] merging instance 'eta3_r_reg[63]' (FDE) to 'eta3_r_reg[64]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[64] )
+WARNING: [Synth 8-3332] Sequential element (BU/flag_sr_r1_reg[0]) is unused and will be removed from module NTT_core_Client.
+WARNING: [Synth 8-3332] Sequential element (samp0_q_reg[9]) is unused and will be removed from module NTT_core_Client.
+WARNING: [Synth 8-3332] Sequential element (samp1_q_reg[9]) is unused and will be removed from module NTT_core_Client.
+WARNING: [Synth 8-3332] Sequential element (samp2_q_reg[9]) is unused and will be removed from module NTT_core_Client.
+WARNING: [Synth 8-3332] Sequential element (samp3_q_reg[9]) is unused and will be removed from module NTT_core_Client.
+WARNING: [Synth 8-3332] Sequential element (eta3_r_reg[64]) is unused and will be removed from module Kyber_Client.
+INFO: [Synth 8-3886] merging instance 'endp_r_reg[0]' (FDE) to 'patt_r_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:30 ; elapsed = 00:01:34 . Memory (MB): peak = 836.813 ; gain = 524.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 881.813 ; gain = 569.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:42 ; elapsed = 00:01:46 . Memory (MB): peak = 906.320 ; gain = 593.633
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'decode/req_r1_reg' (FD) to 'decode_req_r1_reg'
+INFO: [Synth 8-3886] merging instance 'ntt/fifo1_req_r10_reg' (FD) to 'ofifo1_req_r1_reg'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:48 ; elapsed = 00:01:52 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:50 ; elapsed = 00:01:54 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:50 ; elapsed = 00:01:54 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:58 ; elapsed = 00:02:02 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:58 ; elapsed = 00:02:02 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name  | RTL Name                 | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Kyber_Client | ntt/BU/R0/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_Client | ntt/BU/R1/sum_r3_reg[10] | 3      | 11    | NO           | NO                 | YES               | 11     | 0       | 
+|Kyber_Client | r_reg[31]                | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_Client | rho_reg[31]              | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_Client | hash_pk_reg[31]          | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_Client | K_reg[31]                | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_Client | hash_c_reg[31]           | 8      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|Kyber_Client | endp_r_reg[72]           | 22     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_Client | endp_r_reg[49]           | 19     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_Client | endp_r_reg[29]           | 28     | 1     | YES          | NO                 | YES               | 0      | 1       | 
+|Kyber_Client | eta3_r_reg[70]           | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_Client | patt_r_reg[71]           | 4      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|Kyber_Client | patt_r_reg[47]           | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_Client | patt_r_reg[39]           | 8      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_Client | patt_r_reg[29]           | 15     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|Kyber_Client | patt_r_reg[13]           | 12     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++-------------+--------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |fifo_generator_2 |         1|
+|2     |fifo_generator_3 |         1|
+|3     |fifo_generator_6 |         1|
+|4     |fifo_generator_0 |         1|
+|5     |fifo_generator_1 |         1|
+|6     |fifo_generator_7 |         1|
+|7     |fifo_generator_8 |         1|
+|8     |dist_mem_gen_5   |         1|
+|9     |dist_mem_gen_6   |         1|
+|10    |dist_mem_gen_7   |         1|
+|11    |blk_mem_gen_0    |         2|
+|12    |blk_mem_gen_2    |         2|
+|13    |blk_mem_gen_1    |         1|
+|14    |c_shift_ram_3    |         1|
+|15    |c_shift_ram_4    |         2|
+|16    |c_shift_ram_5    |         1|
+|17    |c_shift_ram_6    |         1|
+|18    |c_shift_ram_8    |         1|
+|19    |c_shift_ram_11   |         1|
+|20    |mult_gen_0       |         2|
+|21    |c_shift_ram_0    |         2|
+|22    |c_shift_ram_1    |         2|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |blk_mem_gen_0    |     1|
+|2     |blk_mem_gen_0__1 |     1|
+|3     |blk_mem_gen_1    |     1|
+|4     |blk_mem_gen_2    |     1|
+|5     |blk_mem_gen_2__1 |     1|
+|6     |c_shift_ram_0    |     1|
+|7     |c_shift_ram_0__1 |     1|
+|8     |c_shift_ram_1    |     1|
+|9     |c_shift_ram_11   |     1|
+|10    |c_shift_ram_1__1 |     1|
+|11    |c_shift_ram_3    |     1|
+|12    |c_shift_ram_4    |     1|
+|13    |c_shift_ram_4__1 |     1|
+|14    |c_shift_ram_5    |     1|
+|15    |c_shift_ram_6    |     1|
+|16    |c_shift_ram_8    |     1|
+|17    |dist_mem_gen_5   |     1|
+|18    |dist_mem_gen_6   |     1|
+|19    |dist_mem_gen_7   |     1|
+|20    |fifo_generator_0 |     1|
+|21    |fifo_generator_1 |     1|
+|22    |fifo_generator_2 |     1|
+|23    |fifo_generator_3 |     1|
+|24    |fifo_generator_6 |     1|
+|25    |fifo_generator_7 |     1|
+|26    |fifo_generator_8 |     1|
+|27    |mult_gen_0       |     1|
+|28    |mult_gen_0__1    |     1|
+|29    |BUFG             |     1|
+|30    |CARRY4           |   146|
+|31    |LUT1             |   114|
+|32    |LUT2             |   260|
+|33    |LUT3             |  2051|
+|34    |LUT4             |   229|
+|35    |LUT5             |  2434|
+|36    |LUT6             |  1099|
+|37    |MUXF7            |    63|
+|38    |MUXF8            |     2|
+|39    |SRL16E           |   189|
+|40    |SRLC32E          |     3|
+|41    |FDCE             |     1|
+|42    |FDRE             |  3321|
+|43    |FDSE             |     2|
+|44    |IBUF             |    41|
+|45    |OBUF             |    35|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+--------------------+-----------------+------+
+|      |Instance            |Module           |Cells |
++------+--------------------+-----------------+------+
+|1     |top                 |                 | 10527|
+|2     |  decode            |decode_Client    |   146|
+|3     |  encode            |encode_Client    |   237|
+|4     |  hash              |hash_core_Client |  6064|
+|5     |    decode          |decode_keccak    |   202|
+|6     |    hash            |Keccak1600       |  5432|
+|7     |      FSM           |StateMachine     |   118|
+|8     |      RoundFunction |Round            |  5314|
+|9     |        Reg         |RegisterFDRE     |  3394|
+|10    |        T           |theta            |  1920|
+|11    |  ntt               |NTT_core_Client  |  2950|
+|12    |    BU              |butterfly_Cli    |  1365|
+|13    |      R0            |reduc            |   319|
+|14    |      R1            |reduc_0          |   276|
++------+--------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:58 ; elapsed = 00:02:02 . Memory (MB): peak = 988.531 ; gain = 675.844
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:43 ; elapsed = 00:01:53 . Memory (MB): peak = 988.531 ; gain = 323.023
+Synthesis Optimization Complete : Time (s): cpu = 00:01:58 ; elapsed = 00:02:02 . Memory (MB): peak = 988.531 ; gain = 675.844
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 252 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+350 Infos, 63 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:03 ; elapsed = 00:02:09 . Memory (MB): peak = 988.531 ; gain = 688.711
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/Kyber_Client.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Kyber_Client_utilization_synth.rpt -pb Kyber_Client_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 988.531 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  8 17:32:48 2021...

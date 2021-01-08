@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Kyber_top_tb_func_impl.v" \
+"../../../../../Crystals-kyber.srcs/sim_1/imports/new/Kyber_tb.v" \
+"../../../../../Crystals-kyber.srcs/sim_1/imports/new/reduc_tb.v" \
+"../../../../../Crystals-kyber.srcs/sim_1/new/Kyber_top_tb.v" \
+
+# Do not sort compile order
+nosort

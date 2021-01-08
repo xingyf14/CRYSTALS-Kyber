@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/_to_28bits.v" \
+"../../../../Crystals-kyber.srcs/sources_1/imports/imports/_to_32bits.v" \
+"../../../../Crystals-kyber.srcs/sim_1/imports/new/tb_to_32bits.v" \
+"../../../../Crystals-kyber.srcs/sim_1/imports/new/tb_to_28bits.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
