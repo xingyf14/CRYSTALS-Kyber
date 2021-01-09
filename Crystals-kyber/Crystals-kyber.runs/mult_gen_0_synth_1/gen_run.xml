@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="mult_gen_0_synth_1" LaunchPart="xc7a12tcpg238-1" LaunchTime="1610073376">
   <File Type="PA-TCL" Name="mult_gen_0.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="mult_gen_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mult_gen_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="mult_gen_0.vds"/>
   <File Type="RDS-UTIL" Name="mult_gen_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mult_gen_0_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="mult_gen_0.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="mult_gen_0_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="mult_gen_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mult_gen_0">
     <File Path="$PSRCDIR/sources_1/ip/mult_gen_0/mult_gen_0.xci">
       <FileInfo>
@@ -36,9 +33,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

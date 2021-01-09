@@ -2,8 +2,8 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Fri Jan  8 17:39:43 2021
-# Process ID: 19224
+# Start of session at: Sat Jan  9 02:33:08 2021
+# Process ID: 21448
 # Current directory: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1
 # Command line: vivado.exe -log Kyber_Server.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Kyber_Server.tcl -notrace
 # Log file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1/Kyber_Server.vdi

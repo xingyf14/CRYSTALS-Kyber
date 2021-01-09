@@ -16,7 +16,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a12tcpg238-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -46,7 +45,6 @@ read_verilog -library xil_defaultlib {
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Client.v
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v
-  E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/LUT.v
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/decode_Server.v
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Server.v
@@ -66,7 +64,7 @@ read_vhdl -library xil_defaultlib {
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/theta.vhd
   E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Round.vhd
 }
-read_ip -quiet e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xci
+read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xdc]
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6_ooc.xdc]
 
@@ -141,35 +139,14 @@ set_property used_in_implementation false [get_files -all e:/Vivado_projects/Cry
 read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6_ooc.xdc]
 
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_3/dist_mem_gen_3.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_3/dist_mem_gen_3_ooc.xdc]
-
 read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/c_shift_ram_9.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/c_shift_ram_9_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_4/dist_mem_gen_4.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_4/dist_mem_gen_4_ooc.xdc]
 
 read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0_ooc.xdc]
 
 read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_10/c_shift_ram_10.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_10/c_shift_ram_10_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_7/c_shift_ram_7.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_7/c_shift_ram_7_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1_ooc.xdc]
-
-read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci
-set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2_ooc.xdc]
 
 read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci
 set_property used_in_implementation false [get_files -all e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/mult_gen_0/mult_gen_0_ooc.xdc]

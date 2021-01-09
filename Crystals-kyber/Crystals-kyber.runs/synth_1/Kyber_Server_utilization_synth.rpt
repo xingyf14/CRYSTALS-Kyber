@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date         : Fri Jan  8 17:39:30 2021
+| Date         : Sat Jan  9 02:33:01 2021
 | Host         : XINGYF14 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Kyber_Server_utilization_synth.rpt -pb _to_32bits_v2_utilization_synth.pb
 | Design       : Kyber_Server

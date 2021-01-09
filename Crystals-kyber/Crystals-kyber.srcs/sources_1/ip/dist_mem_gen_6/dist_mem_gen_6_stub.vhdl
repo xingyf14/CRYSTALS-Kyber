@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
 -- Date        : Wed Jan  6 20:57:30 2021
 -- Host        : XINGYF14 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top dist_mem_gen_6 -prefix
+--               dist_mem_gen_6_ dist_mem_gen_6_stub.vhdl
 -- Design      : dist_mem_gen_6
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a12tcpg238-1

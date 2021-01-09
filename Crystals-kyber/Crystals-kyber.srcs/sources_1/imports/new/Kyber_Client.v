@@ -34,7 +34,7 @@ reg [1:0] row, col;
 
 wire ready_u;
 reg req_c_r1;
-reg [31:0] NTT_din;
+reg [24:0] NTT_din;
 wire [21:0] NTT_dout;
 wire NTT_valid;
 

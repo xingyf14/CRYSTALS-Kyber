@@ -2,7 +2,7 @@
 module NTT_core_Client(
 	input clk, rst, start,
 	input [2:0] k,
-	input [31:0] din,
+	input [24:0] din,
 	input fifo0_empty, fifo1_empty, fifo1_full,
 	input [3:0] m_bits,
 	output reg ready_u, ready_c,

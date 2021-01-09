@@ -2,8 +2,8 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Fri Jan  8 17:37:07 2021
-# Process ID: 4784
+# Start of session at: Sat Jan  9 02:30:39 2021
+# Process ID: 7816
 # Current directory: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1
 # Command line: vivado.exe -log Kyber_Server.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Kyber_Server.tcl
 # Log file: E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/Kyber_Server.vds
@@ -15,10 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16096 
-CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module LUT1 [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/LUT.v:26]
+INFO: Helper process launched with PID 1420 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 431.957 ; gain = 118.777
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 418.391 ; gain = 106.352
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Kyber_Server' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:2]
 INFO: [Synth 8-638] synthesizing module 'NTT_core_Server' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:2]
@@ -26,47 +25,47 @@ WARNING: [Synth 8-151] case item 6'b011000 is unreachable [E:/Vivado_projects/Cr
 WARNING: [Synth 8-151] case item 6'b011001 is unreachable [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:434]
 INFO: [Synth 8-155] case statement is not full and has no default [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:564]
 INFO: [Synth 8-638] synthesizing module 'butterfly_Ser' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v:2]
-INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/mult_gen_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (1#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (1#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/mult_gen_0_stub.v:6]
 INFO: [Synth 8-638] synthesizing module 'reduc' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v:2]
 INFO: [Synth 8-256] done synthesizing module 'reduc' (2#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/reduc.v:2]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_0' (3#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_1' (4#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_9' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_9_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_9' (5#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_9_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_0' (3#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_1' (4#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_9' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_9_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_9' (5#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_9_stub.v:6]
 INFO: [Synth 8-256] done synthesizing module 'butterfly_Ser' (6#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v:2]
-INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_5' (7#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_6' (8#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_7' (9#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (10#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_2' (11#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_1' (12#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_5' (7#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_5_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_6' (8#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_6_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_7' (9#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/dist_mem_gen_7_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (10#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_2' (11#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_1' (12#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/blk_mem_gen_1_stub.v:6]
 INFO: [Synth 8-638] synthesizing module 'mux4to2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v:1]
 INFO: [Synth 8-256] done synthesizing module 'mux4to2' (13#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/mux4to2.v:1]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_2_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_2' (14#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_2_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_3' (15#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_4' (16#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_2' (14#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_3' (15#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_3_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_4' (16#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_4_stub.v:6]
 WARNING: [Synth 8-689] width (6) of port connection 'D' does not match port width (8) of module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:662]
 WARNING: [Synth 8-689] width (6) of port connection 'Q' does not match port width (8) of module 'c_shift_ram_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:662]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_5' (17#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_6' (18#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_8' (19#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'c_shift_ram_11' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_11' (20#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_5' (17#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_5_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_6' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_6' (18#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_6_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_8' (19#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_8_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'c_shift_ram_11' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'c_shift_ram_11' (20#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/c_shift_ram_11_stub.v:6]
 INFO: [Synth 8-256] done synthesizing module 'NTT_core_Server' (21#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/NTT_core_Server.v:2]
 INFO: [Synth 8-638] synthesizing module 'hash_core_Server' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v:1]
 INFO: [Synth 8-638] synthesizing module 'Keccak1600' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:41]
@@ -97,14 +96,14 @@ INFO: [Synth 8-3491] module 'StateMachine' declared at 'E:/Vivado_projects/Cryst
 INFO: [Synth 8-638] synthesizing module 'StateMachine' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/StateMachine.vhd:35]
 INFO: [Synth 8-256] done synthesizing module 'StateMachine' (29#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/StateMachine.vhd:35]
 INFO: [Synth 8-256] done synthesizing module 'Keccak1600' (30#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/Keccak1600.vhd:41]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_0' (31#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_0_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_1' (32#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_1_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_7_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_7' (33#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_7_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_8_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_8' (34#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_0' (31#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_1' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_1' (32#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_7' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_7' (33#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_7_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_8' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_8_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_8' (34#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_8_stub.v:6]
 INFO: [Synth 8-638] synthesizing module 'decode_keccak' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v:3]
 INFO: [Synth 8-256] done synthesizing module 'decode_keccak' (35#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/new/decode_keccak.v:3]
 INFO: [Synth 8-256] done synthesizing module 'hash_core_Server' (36#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/hash_core_Server.v:1]
@@ -114,24 +113,17 @@ INFO: [Synth 8-638] synthesizing module 'encode_Server' [E:/Vivado_projects/Crys
 INFO: [Synth 8-256] done synthesizing module 'encode_Server' (38#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/imports/encode_Server.v:2]
 INFO: [Synth 8-638] synthesizing module 'pattern' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v:1]
 INFO: [Synth 8-256] done synthesizing module 'pattern' (39#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/pattern.v:1]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_2_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_2' (40#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_2_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_3_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_3' (41#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_3_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_4_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_4' (42#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_4_stub.v:6]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_5_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'fifo_generator_5' (43#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/realtime/fifo_generator_5_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_2' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_2' (40#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_3' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_3' (41#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_3_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_4' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_4_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_4' (42#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_4_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_5' [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_5_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_5' (43#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/realtime/fifo_generator_5_stub.v:6]
 INFO: [Synth 8-256] done synthesizing module 'Kyber_Server' (44#1) [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:2]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[31]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[30]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[29]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[28]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[27]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[26]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[25]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 488.477 ; gain = 175.297
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 487.301 ; gain = 175.262
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -141,77 +133,77 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 488.477 ; gain = 175.297
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 487.301 ; gain = 175.262
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a12tcpg238-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp69/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp69/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp71/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp71/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp73/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp73/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp75/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp75/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp77/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp77/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp79/fifo_generator_4_in_context.xdc] for cell 'DFIFO0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp79/fifo_generator_4_in_context.xdc] for cell 'DFIFO0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp81/fifo_generator_5_in_context.xdc] for cell 'DFIFO1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp81/fifo_generator_5_in_context.xdc] for cell 'DFIFO1'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp83/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp83/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp85/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp85/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp87/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp87/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp89/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp89/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp91/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp91/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp93/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp93/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp95/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp95/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp97/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp99/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp99/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp101/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp103/c_shift_ram_2_in_context.xdc] for cell 'ntt/S3'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp103/c_shift_ram_2_in_context.xdc] for cell 'ntt/S3'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp105/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp107/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp107/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp109/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp109/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp113/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S12'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp113/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S12'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp113/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S13'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp113/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S13'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp117/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp119/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
-Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
-Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-4784-XINGYF14/dcp131/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp55/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp55/fifo_generator_8_in_context.xdc] for cell 'hash/fifo8'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp57/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp57/fifo_generator_7_in_context.xdc] for cell 'hash/fifo2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp59/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp59/dist_mem_gen_7_in_context.xdc] for cell 'ntt/ROM2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp61/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp61/fifo_generator_2_in_context.xdc] for cell 'IFIFO'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp63/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp63/fifo_generator_3_in_context.xdc] for cell 'OFIFO'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp65/fifo_generator_4_in_context.xdc] for cell 'DFIFO0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp65/fifo_generator_4_in_context.xdc] for cell 'DFIFO0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp67/fifo_generator_5_in_context.xdc] for cell 'DFIFO1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp67/fifo_generator_5_in_context.xdc] for cell 'DFIFO1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp69/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp69/fifo_generator_0_in_context.xdc] for cell 'hash/fifo0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp71/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp71/fifo_generator_1_in_context.xdc] for cell 'hash/fifo1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp73/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp73/c_shift_ram_3_in_context.xdc] for cell 'ntt/S4'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp75/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp75/c_shift_ram_6_in_context.xdc] for cell 'ntt/S9'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp77/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp77/c_shift_ram_8_in_context.xdc] for cell 'ntt/S10'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp79/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp79/c_shift_ram_5_in_context.xdc] for cell 'ntt/S7'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp81/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp81/c_shift_ram_11_in_context.xdc] for cell 'ntt/S11'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp83/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp83/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp83/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp83/blk_mem_gen_0_in_context.xdc] for cell 'ntt/RAM1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp85/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp85/blk_mem_gen_1_in_context.xdc] for cell 'ntt/RAM4'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp87/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp87/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp87/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp87/blk_mem_gen_2_in_context.xdc] for cell 'ntt/RAM3'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp89/c_shift_ram_2_in_context.xdc] for cell 'ntt/S3'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp89/c_shift_ram_2_in_context.xdc] for cell 'ntt/S3'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp91/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp91/c_shift_ram_4_in_context.xdc] for cell 'ntt/S5'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp91/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp91/c_shift_ram_4_in_context.xdc] for cell 'ntt/S6'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp93/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp93/dist_mem_gen_5_in_context.xdc] for cell 'ntt/ROM0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp95/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp95/dist_mem_gen_6_in_context.xdc] for cell 'ntt/ROM1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp97/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S12'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp97/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S12'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp97/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S13'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp97/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S13'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp99/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp99/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp99/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp99/c_shift_ram_9_in_context.xdc] for cell 'ntt/BU/S1'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp101/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp101/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S2'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp101/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp101/c_shift_ram_1_in_context.xdc] for cell 'ntt/BU/S3'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp103/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp103/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M0'
+Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp103/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
+Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/.Xil/Vivado-7816-XINGYF14/dcp103/mult_gen_0_in_context.xdc] for cell 'ntt/BU/M1'
 Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
 Finished Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc]
 Parsing XDC File [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/dont_touch.xdc]
@@ -221,7 +213,7 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 843.609 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 841.242 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'DFIFO0' at clock pin 'clk' is different from the actual clock period '6.200', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'DFIFO1' at clock pin 'clk' is different from the actual clock period '6.200', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'IFIFO' at clock pin 'clk' is different from the actual clock period '6.200', this can lead to different synthesis results.
@@ -255,14 +247,14 @@ WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context s
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S2' at clock pin 'CLK' is different from the actual clock period '6.200', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ntt/BU/S3' at clock pin 'CLK' is different from the actual clock period '6.200', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 843.609 ; gain = 530.430
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 841.242 ; gain = 529.203
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a12tcpg238-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 843.609 ; gain = 530.430
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 841.242 ; gain = 529.203
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -300,7 +292,7 @@ Applied set_property DONT_TOUCH = true for ntt/S6. (constraint file  auto genera
 Applied set_property DONT_TOUCH = true for ntt/S7. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for ntt/S9. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 843.609 ; gain = 530.430
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 841.242 ; gain = 529.203
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v:124]
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/butterfly_Server.v:124]
@@ -449,7 +441,7 @@ INFO: [Synth 8-5544] ROM "u_ctr_end" won't be mapped to Block RAM because addres
 INFO: [Synth 8-5546] ROM "dout" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-6014] Unused sequential element nonce_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:374]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 843.609 ; gain = 530.430
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 841.242 ; gain = 529.203
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -916,13 +908,6 @@ INFO: [Synth 8-5544] ROM "patt" won't be mapped to Block RAM because address siz
 INFO: [Synth 8-5544] ROM "eta3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "endp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 WARNING: [Synth 8-6014] Unused sequential element nonce_reg was removed.  [E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/imports/new/Kyber_Server.v:374]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[31]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[30]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[29]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[28]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[27]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[26]
-WARNING: [Synth 8-3331] design NTT_core_Server has unconnected port din[25]
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\eta3_r_reg[0] )
 INFO: [Synth 8-3886] merging instance 'ntt/ctrl_butt_reg[0]' (FD) to 'ntt/ctrl_butt_reg[2]'
 INFO: [Synth 8-3886] merging instance 'ntt/samp2_q_reg[3]' (FDR) to 'ntt/samp2_q_reg[7]'
@@ -1061,7 +1046,7 @@ WARNING: [Synth 8-3332] Sequential element (samp3_q_reg[9]) is unused and will b
 WARNING: [Synth 8-3332] Sequential element (eta3_r_reg[52]) is unused and will be removed from module Kyber_Server.
 INFO: [Synth 8-3886] merging instance 'endp_r_reg[0]' (FDE) to 'patt_r_reg[0]'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:32 ; elapsed = 00:01:35 . Memory (MB): peak = 843.609 ; gain = 530.430
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:35 . Memory (MB): peak = 841.242 ; gain = 529.203
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1073,13 +1058,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:41 ; elapsed = 00:01:45 . Memory (MB): peak = 913.199 ; gain = 600.020
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:40 ; elapsed = 00:01:44 . Memory (MB): peak = 913.051 ; gain = 601.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:48 . Memory (MB): peak = 938.000 ; gain = 624.820
+Finished Timing Optimization : Time (s): cpu = 00:01:43 ; elapsed = 00:01:47 . Memory (MB): peak = 937.906 ; gain = 625.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1093,7 +1078,7 @@ Start Technology Mapping
 INFO: [Synth 8-3886] merging instance 'ntt/fifo1_req_r10_reg' (FD) to 'ofifo1_req_r1_reg'
 INFO: [Synth 8-3886] merging instance 'decode/req_r1_reg' (FD) to 'decode_req_r1_reg'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Technology Mapping : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1117,7 +1102,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished IO Insertion : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1130,7 +1115,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:51 ; elapsed = 00:01:56 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:51 ; elapsed = 00:01:55 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1142,25 +1127,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:01:56 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:57 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:01:56 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1309,11 +1294,11 @@ Report Instance Areas:
 |14    |      R1            |reduc_0          |   276|
 +------+--------------------+-----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1017.320 ; gain = 705.281
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:44 ; elapsed = 00:01:55 . Memory (MB): peak = 1019.426 ; gain = 351.113
-Synthesis Optimization Complete : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1019.426 ; gain = 706.246
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:44 ; elapsed = 00:01:55 . Memory (MB): peak = 1017.320 ; gain = 351.340
+Synthesis Optimization Complete : Time (s): cpu = 00:02:00 ; elapsed = 00:02:04 . Memory (MB): peak = 1017.320 ; gain = 705.281
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 346 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1323,10 +1308,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-410 Infos, 64 Warnings, 1 Critical Warnings and 0 Errors encountered.
+410 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:06 ; elapsed = 00:02:12 . Memory (MB): peak = 1019.426 ; gain = 719.383
+synth_design: Time (s): cpu = 00:02:05 ; elapsed = 00:02:11 . Memory (MB): peak = 1017.320 ; gain = 718.531
 INFO: [Common 17-1381] The checkpoint 'E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1/Kyber_Server.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Kyber_Server_utilization_synth.rpt -pb _to_32bits_v2_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1019.426 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Jan  8 17:39:30 2021...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1017.320 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Jan  9 02:33:01 2021...

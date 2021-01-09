@@ -60,7 +60,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
@@ -75,7 +74,7 @@ set rc [catch {
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   add_files -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_2/Kyber_Client.dcp
-  read_ip -quiet e:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xci
+  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_6_1/fifo_generator_6.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_8/fifo_generator_8.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/fifo_generator_7/fifo_generator_7.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_7/dist_mem_gen_7.xci
@@ -97,16 +96,9 @@ set rc [catch {
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_4/c_shift_ram_4.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_5/dist_mem_gen_5.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_3/dist_mem_gen_3.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/c_shift_ram_9.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_4/dist_mem_gen_4.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_1/c_shift_ram_1.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_10/c_shift_ram_10.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/c_shift_ram_7/c_shift_ram_7.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_1/dist_mem_gen_1.xci
-  read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_2/dist_mem_gen_2.xci
   read_ip -quiet E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci
   read_xdc E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/constrs_1/imports/new/constr.xdc
   link_design -top Kyber_Client -part xc7a12tcpg238-1

@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_2" LaunchPart="xc7a12tcpg238-1" LaunchTime="1610098226">
-  <File Type="PWROPT-DCP" Name="Kyber_Client_pwropt.dcp"/>
+<GenRun Id="impl_2" LaunchPart="xc7a12tcpg238-1" LaunchTime="1610214063">
   <File Type="ROUTE-PWR" Name="Kyber_Client_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Kyber_Client.tcl"/>
+  <File Type="PWROPT-DCP" Name="Kyber_Client_pwropt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="Kyber_Client_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Kyber_Client_reports.tcl"/>
   <File Type="BG-DRC" Name="Kyber_Client.drc"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Kyber_Client_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Kyber_Client_timing_summary_init.rpt"/>
   <File Type="OPT-HWDEF" Name="Kyber_Client.hwdef"/>
   <File Type="OPT-DCP" Name="Kyber_Client_opt.dcp"/>
   <File Type="OPT-DRC" Name="Kyber_Client_drc_opted.rpt"/>
-  <File Type="OPT-TIMING" Name="Kyber_Client_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="Kyber_Client_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Kyber_Client_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="Kyber_Client_placed.dcp"/>
   <File Type="PLACE-IO" Name="Kyber_Client_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Kyber_Client_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Kyber_Client_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Kyber_Client_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Kyber_Client_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Kyber_Client_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Kyber_Client_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="Kyber_Client_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="Kyber_Client_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Kyber_Client_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="Kyber_Client_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Kyber_Client_drc_physopted.rpt"/>
   <File Type="BG-BIT" Name="Kyber_Client.bit"/>
-  <File Type="PHYSOPT-TIMING" Name="Kyber_Client_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="Kyber_Client_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="Kyber_Client_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="Kyber_Client_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Kyber_Client_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Kyber_Client_drc_routed.pb"/>
-  <File Type="BITSTR-MSK" Name="Kyber_Client.msk"/>
   <File Type="ROUTE-DRC-RPX" Name="Kyber_Client_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="Kyber_Client.bgn"/>
+  <File Type="BITSTR-MSK" Name="Kyber_Client.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="Kyber_Client_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-RBT" Name="Kyber_Client.rbt"/>
+  <File Type="BG-BGN" Name="Kyber_Client.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Kyber_Client_methodology_drc_routed.rpx"/>
-  <File Type="BG-BIN" Name="Kyber_Client.bin"/>
+  <File Type="BITSTR-RBT" Name="Kyber_Client.rbt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Kyber_Client_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Kyber_Client.bin"/>
   <File Type="ROUTE-PWR-RPX" Name="Kyber_Client_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="Kyber_Client_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Kyber_Client_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Kyber_Client_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Kyber_Client_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Kyber_Client_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Kyber_Client_incremental_reuse_routed.rpt"/>
-  <File Type="RDI-RDI" Name="Kyber_Client.vdi"/>
   <File Type="ROUTE-CLK" Name="Kyber_Client_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Kyber_Client.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Kyber_Client_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Kyber_Client_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Kyber_Client_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Kyber_Client_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Kyber_Client_timing_summary_postroute_physopted.rpx"/>
   <File Type="BITSTR-NKY" Name="Kyber_Client.nky"/>
   <File Type="BITSTR-BMM" Name="Kyber_Client_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="Kyber_Client.mmi"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="Kyber_Client.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="Kyber_Client.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -228,13 +212,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/new/LUT.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/new/pattern.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -346,36 +323,29 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_4"/>
   <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_4"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_2"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_3"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_5"/>
   <BlockFileSet Type="BlockSrcs" Name="fifo_generator_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_10"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_3"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_6"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_0"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_8"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_4"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_4"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
   <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_2"/>
   <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_5"/>
   <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_6"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_1"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_9"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_4"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="c_shift_ram_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="dist_mem_gen_2"/>
   <BlockFileSet Type="BlockSrcs" Name="mult_gen_0"/>
 </GenRun>

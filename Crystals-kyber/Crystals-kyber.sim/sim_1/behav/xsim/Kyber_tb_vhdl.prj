@@ -10,8 +10,6 @@ vhdl xil_defaultlib  \
 "../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_9/sim/c_shift_ram_9.vhd" \
 "../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_0/sim/c_shift_ram_0.vhd" \
 "../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_1/sim/c_shift_ram_1.vhd" \
-"../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_10/sim/c_shift_ram_10.vhd" \
-"../../../../Crystals-kyber.srcs/sources_1/ip/c_shift_ram_7/sim/c_shift_ram_7.vhd" \
 "../../../../Crystals-kyber.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd" \
 "../../../../Crystals-kyber.srcs/sources_1/imports/imports/pi.vhd" \
 "../../../../Crystals-kyber.srcs/sources_1/imports/imports/RegisterFDRE.vhd" \

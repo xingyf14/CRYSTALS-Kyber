@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="dist_mem_gen_7_synth_1" LaunchDir="E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/dist_mem_gen_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dist_mem_gen_5_synth_1" LaunchDir="E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/dist_mem_gen_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="dist_mem_gen_6_synth_1" LaunchDir="E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/dist_mem_gen_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="dist_mem_gen_7_synth_1"/>
+		<Parent Id="dist_mem_gen_5_synth_1"/>
+		<Parent Id="dist_mem_gen_6_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/Vivado_projects/Crystals-kyber/Crystals-kyber.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="dist_mem_gen_7_synth_1"/>
+		<Parent Id="dist_mem_gen_5_synth_1"/>
+		<Parent Id="dist_mem_gen_6_synth_1"/>
+	</Run>
+</Runs>
+

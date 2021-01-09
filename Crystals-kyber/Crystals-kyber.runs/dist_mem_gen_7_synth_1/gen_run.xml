@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="dist_mem_gen_7_synth_1" LaunchPart="xc7a12tcpg238-1" LaunchTime="1609777220">
+<GenRun Id="dist_mem_gen_7_synth_1" LaunchPart="xc7a12tcpg238-1" LaunchTime="1610130624">
   <File Type="PA-TCL" Name="dist_mem_gen_7.tcl"/>
   <File Type="REPORTS-TCL" Name="dist_mem_gen_7_reports.tcl"/>
   <File Type="RDS-RDS" Name="dist_mem_gen_7.vds"/>
-  <File Type="RDS-UTIL" Name="dist_mem_gen_7_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="dist_mem_gen_7_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="dist_mem_gen_7.dcp"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/dist_mem_gen_7">
     <File Path="$PSRCDIR/sources_1/ip/dist_mem_gen_7/dist_mem_gen_7.xci">

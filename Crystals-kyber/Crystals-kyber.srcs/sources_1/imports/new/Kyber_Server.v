@@ -38,7 +38,7 @@ reg [1:0] absorb_ctr, absorb_ctr_r1;
 reg [1:0] row, col;
 
 wire ready_t;
-reg [31:0] NTT_din;
+reg [24:0] NTT_din;
 wire [23:0] NTT_dout;
 wire NTT_valid;
 

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
 -- Date        : Wed Jan  6 20:57:30 2021
 -- Host        : XINGYF14 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               E:/Vivado_projects/Crystals-kyber/Crystals-kyber.srcs/sources_1/ip/dist_mem_gen_6/dist_mem_gen_6_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top dist_mem_gen_6 -prefix
+--               dist_mem_gen_6_ dist_mem_gen_6_sim_netlist.vhdl
 -- Design      : dist_mem_gen_6
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -20,8 +20,6 @@ entity dist_mem_gen_6_rom is
     a : in STD_LOGIC_VECTOR ( 6 downto 0 );
     clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dist_mem_gen_6_rom : entity is "rom";
 end dist_mem_gen_6_rom;
 
 architecture STRUCTURE of dist_mem_gen_6_rom is
@@ -601,8 +599,6 @@ entity dist_mem_gen_6_dist_mem_gen_v8_0_12_synth is
     a : in STD_LOGIC_VECTOR ( 6 downto 0 );
     clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dist_mem_gen_6_dist_mem_gen_v8_0_12_synth : entity is "dist_mem_gen_v8_0_12_synth";
 end dist_mem_gen_6_dist_mem_gen_v8_0_12_synth;
 
 architecture STRUCTURE of dist_mem_gen_6_dist_mem_gen_v8_0_12_synth is
@@ -702,8 +698,6 @@ entity dist_mem_gen_6_dist_mem_gen_v8_0_12 is
   attribute C_SYNC_ENABLE of dist_mem_gen_6_dist_mem_gen_v8_0_12 : entity is 1;
   attribute C_WIDTH : integer;
   attribute C_WIDTH of dist_mem_gen_6_dist_mem_gen_v8_0_12 : entity is 12;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of dist_mem_gen_6_dist_mem_gen_v8_0_12 : entity is "dist_mem_gen_v8_0_12";
 end dist_mem_gen_6_dist_mem_gen_v8_0_12;
 
 architecture STRUCTURE of dist_mem_gen_6_dist_mem_gen_v8_0_12 is

@@ -2612,8 +2612,8 @@ const int NumRelocateId= 2562;
 void relocate(char *dp)
 {
 	iki_relocate(dp, "xsim.dir/Kyber_tb_behav/xsim.reloc",  (void **)funcTab, 2562);
-	iki_vhdl_file_variable_register(dp + 3452960);
-	iki_vhdl_file_variable_register(dp + 3453016);
+	iki_vhdl_file_variable_register(dp + 3452928);
+	iki_vhdl_file_variable_register(dp + 3452984);
 
 
 	/*Populate the transaction function pointer field in the whole net structure */
@@ -2629,77 +2629,77 @@ void simulate(char *dp)
 	iki_schedule_processes_at_time_zero(dp, "xsim.dir/Kyber_tb_behav/xsim.reloc");
 	// Initialize Verilog nets in mixed simulation, for the cases when the value at time 0 should be propagated from the mixed language Vhdl net
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4016024, dp + 3466280, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4015992, dp + 3466248, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4016080, dp + 3466448, 0, 31, 0, 31, 32, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4016048, dp + 3466416, 0, 31, 0, 31, 32, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3997512, dp + 3467008, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3997480, dp + 3466976, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3974808, dp + 3504376, 0, 5, 0, 5, 6, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3974776, dp + 3504344, 0, 5, 0, 5, 6, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3970616, dp + 3504600, 0, 1, 0, 1, 2, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3970584, dp + 3504568, 0, 1, 0, 1, 2, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4001672, dp + 3505664, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 4001640, dp + 3505632, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3609688, dp + 3506448, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3609656, dp + 3506416, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3614096, dp + 3506504, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3614064, dp + 3506472, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3979144, dp + 3507568, 0, 7, 0, 7, 8, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3979112, dp + 3507536, 0, 7, 0, 7, 8, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3983584, dp + 3507624, 0, 5, 2, 7, 6, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3983552, dp + 3507592, 0, 5, 2, 7, 6, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3988024, dp + 3507680, 0, 6, 0, 6, 7, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3987992, dp + 3507648, 0, 6, 0, 6, 7, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3992432, dp + 3508408, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3992400, dp + 3508376, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3983584, dp + 3509248, 0, 1, 0, 1, 2, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3983552, dp + 3509216, 0, 1, 0, 1, 2, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3556672, dp + 3545912, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3556640, dp + 3545880, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3570992, dp + 3545968, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3570960, dp + 3545936, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3592488, dp + 3546136, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3592456, dp + 3546104, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3596896, dp + 3546192, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3596864, dp + 3546160, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3601304, dp + 3546696, 0, 3, 0, 3, 4, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3601272, dp + 3546664, 0, 3, 0, 3, 4, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3605496, dp + 3546808, 0, 3, 0, 3, 4, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 3605464, dp + 3546776, 0, 3, 0, 3, 4, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6017144, dp + 5496208, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6017112, dp + 5496176, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6017200, dp + 5496376, 0, 31, 0, 31, 32, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6017168, dp + 5496344, 0, 31, 0, 31, 32, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5998632, dp + 5496936, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5998600, dp + 5496904, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5975928, dp + 5523816, 0, 4, 1, 5, 5, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5975896, dp + 5523784, 0, 4, 1, 5, 5, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6002792, dp + 5525048, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 6002760, dp + 5525016, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5980264, dp + 5526728, 0, 7, 0, 7, 8, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5980232, dp + 5526696, 0, 7, 0, 7, 8, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5984704, dp + 5526784, 0, 5, 2, 7, 6, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5984672, dp + 5526752, 0, 5, 2, 7, 6, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5989144, dp + 5526840, 0, 6, 0, 6, 7, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5989112, dp + 5526808, 0, 6, 0, 6, 7, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5993552, dp + 5527568, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5993520, dp + 5527536, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5984704, dp + 5528408, 0, 1, 0, 1, 2, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5984672, dp + 5528376, 0, 1, 0, 1, 2, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5975928, dp + 5528520, 0, 0, 0, 0, 1, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5975896, dp + 5528488, 0, 0, 0, 0, 1, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5570800, dp + 5560872, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5570768, dp + 5560840, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5585120, dp + 5560928, 0, 23, 0, 23, 24, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5585088, dp + 5560896, 0, 23, 0, 23, 24, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5606616, dp + 5560984, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5606584, dp + 5560952, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5611024, dp + 5561040, 0, 11, 0, 11, 12, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5610992, dp + 5561008, 0, 11, 0, 11, 12, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5615432, dp + 5561544, 0, 3, 0, 3, 4, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5615400, dp + 5561512, 0, 3, 0, 3, 4, 1);
 
-	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5619624, dp + 5561656, 0, 3, 0, 3, 4, 1);
+	iki_vlog_schedule_transaction_signal_fast_vhdl_value_time_0(dp + 5619592, dp + 5561624, 0, 3, 0, 3, 4, 1);
 	iki_execute_processes();
 
 	// Schedule resolution functions for the multiply driven Verilog nets that have strength
